@@ -90,10 +90,6 @@ nav a:hover::before{
     body{
        margin: 0px;;
        background-color: rgba(255, 255, 255, 0.786);
-       color:rgb(0, 0, 0,.5);
-       line-height: 3ch;
-       font-size: 20;
-       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     .image img {
       height: 250px;

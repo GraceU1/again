@@ -1,7 +1,8 @@
 body{
    margin: 0;
-   background: rgb(255, 255, 255)
-}
+      background:url(file:///Users/refcode1f/Downloads/ezgif-3-12a7696010.gif);
+   background-size: cover;}
+   
 .menu-bar{
    width: 80%;
    margin: 0 auto;
@@ -100,23 +101,3 @@ nav a:hover::before{
    border-radius: 50px;
    margin-top: 20px;
 }
-.back-video{
-   position:absolute;
-   right:0;
-   bottom:0;
-  z-index: -1;
-   }
-   @media (min-aspect-ratio:16/9){
-      .back-video{
-         width:100%;
-         height:auto;
-      }
-      
-   }
-   @media (max-aspect-ratio:16/9){
-      .back-video{
-         width:auto;
-         height:100%;
-      }
-      
-   }
